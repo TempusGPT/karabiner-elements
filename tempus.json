@@ -450,7 +450,7 @@
             ]
         },
         {
-            "description": "Right Cmd/Opt -> IME/Emoji",
+            "description": "Right Cmd/Opt -> IME/Caps Lock",
             "manipulators": [
                 {
                     "type": "basic",
@@ -474,8 +474,7 @@
                         }
                     },
                     "to": {
-                        "key_code": "spacebar",
-                        "modifiers": ["left_command", "left_control"]
+                        "key_code": "caps_lock"
                     }
                 }
             ]
